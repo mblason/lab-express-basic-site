@@ -5,18 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="/public/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/style.css">
     <title>About</title>
 </head>
 <body>
-    <nav id="nav-bar-about">
+    <nav class="nav-bar">
         <ul>
-            <li><a href="/views/home.html">Home</a></li>
-            <li><a href="/views/about.html">About</a></li>
-            <li><a href="/views/works.html">Achievements</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/works">Achievements</a></li>
         </ul>
     </nav>
-    <h1>About</h1>   
+    <div id="personal-info">
+        <div class="about-subtitle">
+            <h2>PERSONAL INFO</h2>
+            <hr>
+        </div>        
+
+        <ul>
+            <li>Name: Lionel Andrés Messi Cuccittini</li>
+            <li>Nickname: 'La pulga','El Mesías', 'D10S'.</li>
+            <li>Birth: Rosario, Argentina, 24 de junio de 1987</li>
+            <li>Height:	1,70m </li>
+            <li>Weight:	72kg</li>
+        </ul>
+
+    </div>   
+    
+    <div class="about-subtitle">
+        <h2>CLUB CAREER</h2>
+        <hr>
+    </div>
+
+    <section id="timeline">  
+        <div class="tl-item">            
+            <div class="tl-bg" style="background-image: url(/IMG/messi-newells.jpg)"></div> 
+
+            <div class="tl-year">
+                <p class="f2 heading--sanSerif">1994 - 1999</p>
+            </div>
+
+            <div class="tl-content">
+                <h1>Newell's Old Boys</h1>
+            </div>
+        </div>
+
+        <div class="tl-item">            
+            <div class="tl-bg" style="background-image: url(/IMG/messi-barca.jpg)"></div>
+            
+            <div class="tl-year">
+                <p class="f2 heading--sanSerif">2000 - 2021</p>
+            </div>
+
+            <div class="tl-content">
+                <h1 class="f3 text--accent ttu barca-text">F. C. Barcelona</h1>
+            </div>
+        </div>
+
+        <div class="tl-item">            
+            <div class="tl-bg" style="background-image: url(/IMG/messi-paris.jpg)"></div>
+            
+            <div class="tl-year">
+                <p class="f2 heading--sanSerif">2021 - today</p>
+            </div>
+
+            <div class="tl-content">
+                <h1 class="f3 text--accent ttu">Paris Saint-Germain</h1>
+            </div>
+        </div>
+    </section>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> 
 </body>
 </html>
